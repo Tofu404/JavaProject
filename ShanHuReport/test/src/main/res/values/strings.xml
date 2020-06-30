@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ShanHuReport</string>
+    <string name="show_native_ad">展示原生广告</string>
+    <string name="show_reward_ad">展示激励广告</string>
+</resources>

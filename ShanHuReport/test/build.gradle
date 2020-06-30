@@ -1,0 +1,82 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion "29.0.3"
+    defaultConfig {
+        applicationId "com.alltheway.forward"
+        minSdkVersion 21
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+
+    flavorDimensions "default"
+    //多渠道打包
+    productFlavors {
+        myApp0 {
+            applicationId "woxihuan.ni"
+            buildConfigField 'boolean', 'TEST_MODE', 'true'
+            buildConfigField 'String', 'APPKEY', '"0QY40DHLM2J08XXCDDS63A34"'
+            buildConfigField 'String', 'NATIVEADID', '"17916_65526"'
+            buildConfigField 'String', 'REWARDADID', '"17916_29418"'
+            manifestPlaceholders = [app_name: "第1个app"]        }
+        myApp1 {
+            applicationId "nihao.ya"
+            buildConfigField 'boolean', 'TEST_MODE', 'true'
+            buildConfigField 'String', 'APPKEY', '"0QY40DHLM2J08XXCDDS63A34"'
+            buildConfigField 'String', 'NATIVEADID', '"17916_65526"'
+            buildConfigField 'String', 'REWARDADID', '"17916_29418"'
+            manifestPlaceholders = [app_name: "第2个app"]        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    applicationVariants.all { variant ->
+        variant.outputs.all {
+            if (buildType.name == "debug") {
+                variant.getPackageApplication().outputDirectory = new File(project.rootDir.absolutePath + "/apk_output_path")
+                outputFileName = "${productFlavors.name}_debug.apk"
+            }
+        }
+    }
+
+}
+
+repositories {
+    flatDir {
+        dirs 'libs'
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: "libs", include: ["*.jar"])
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'com.github.bumptech.glide:glide:4.11.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+    implementation 'com.jakewharton:butterknife:10.2.1'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:10.2.1'
+    implementation(name: 'kllib', ext: 'aar')
+    implementation(name: 'kllib-ext-1', ext: 'aar')
+    implementation(name: 'kllib-ext-2', ext: 'aar')
+    //noinspection GradleCompatible
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+    implementation 'com.google.code.gson:gson:2.8.5'
+}

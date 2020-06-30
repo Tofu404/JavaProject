@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ShanHuBuildShell:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ShanHuBuildShell_jar</output-path>
+    <root id="archive" name="ShanHuBuildShell.jar">
+      <element id="module-output" name="ShanHuBuildShell" />
+    </root>
+  </artifact>
+</component>

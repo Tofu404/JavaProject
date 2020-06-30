@@ -1,0 +1,245 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.alltheway.forward"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->E:\ShanHuReport\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->E:\ShanHuReport\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->[:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:12:5-67
+11-->[:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:12:22-64
+12    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+12-->[:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:13:5-75
+12-->[:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:13:22-72
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->[:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:14:5-79
+13-->[:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:14:22-76
+14    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+14-->[:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:15:5-76
+14-->[:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:15:22-73
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15-->[:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:16:5-80
+15-->[:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:16:22-77
+16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+16-->[:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:17:5-81
+16-->[:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:17:22-78
+17    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+17-->[:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:18:5-83
+17-->[:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:18:22-80
+18    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+18-->[:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:19:5-77
+18-->[:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:19:22-74
+19    <uses-permission android:name="android.permission.GET_TASKS" />
+19-->[:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:20:5-68
+19-->[:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:20:22-65
+20    <uses-permission android:name="android.permission.PACKAGE_USAGE_STATS" />
+20-->[:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:21:5-24:47
+20-->[:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:23:9-62
+21    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+21-->[:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:25:5-81
+21-->[:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:25:22-78
+22    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+22-->[:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:26:5-79
+22-->[:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:26:22-76
+23
+24    <application
+24-->E:\ShanHuReport\app\src\main\AndroidManifest.xml:5:5-31:19
+25        android:name="com.alltheway.forward.MyApplication"
+25-->E:\ShanHuReport\app\src\main\AndroidManifest.xml:6:9-59
+26        android:allowBackup="true"
+26-->E:\ShanHuReport\app\src\main\AndroidManifest.xml:7:9-35
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.1.0] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\03736cf4bc3669a69d502627b70a527e\core-1.1.0\AndroidManifest.xml:24:18-86
+28        android:debuggable="true"
+29        android:icon="@mipmap/ic_launcher"
+29-->E:\ShanHuReport\app\src\main\AndroidManifest.xml:8:9-43
+30        android:label="@string/app_name"
+30-->E:\ShanHuReport\app\src\main\AndroidManifest.xml:9:9-41
+31        android:roundIcon="@mipmap/ic_launcher_round"
+31-->E:\ShanHuReport\app\src\main\AndroidManifest.xml:10:9-54
+32        android:supportsRtl="true"
+32-->E:\ShanHuReport\app\src\main\AndroidManifest.xml:11:9-35
+33        android:testOnly="true"
+34        android:theme="@style/AppTheme"
+34-->E:\ShanHuReport\app\src\main\AndroidManifest.xml:12:9-40
+35        android:usesCleartextTraffic="true" >
+35-->[:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:28:18-53
+36        <activity android:name="com.alltheway.forward.MainActivity" >
+36-->E:\ShanHuReport\app\src\main\AndroidManifest.xml:13:9-19:20
+36-->E:\ShanHuReport\app\src\main\AndroidManifest.xml:13:19-47
+37            <intent-filter>
+37-->E:\ShanHuReport\app\src\main\AndroidManifest.xml:14:13-18:29
+38                <action android:name="android.intent.action.MAIN" />
+38-->E:\ShanHuReport\app\src\main\AndroidManifest.xml:15:17-69
+38-->E:\ShanHuReport\app\src\main\AndroidManifest.xml:15:25-66
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->E:\ShanHuReport\app\src\main\AndroidManifest.xml:17:17-77
+40-->E:\ShanHuReport\app\src\main\AndroidManifest.xml:17:27-74
+41            </intent-filter>
+42        </activity>
+43
+44        <provider
+45            android:name="com.pw.us.WdProvider"
+45-->E:\ShanHuReport\app\src\main\AndroidManifest.xml:22:13-48
+46            android:authorities="com.alltheway.forward.us.fileprovider"
+46-->E:\ShanHuReport\app\src\main\AndroidManifest.xml:23:13-67
+47            android:exported="false"
+47-->E:\ShanHuReport\app\src\main\AndroidManifest.xml:24:13-37
+48            android:grantUriPermissions="true" >
+48-->E:\ShanHuReport\app\src\main\AndroidManifest.xml:25:13-47
+49            <meta-data
+49-->E:\ShanHuReport\app\src\main\AndroidManifest.xml:26:13-28:54
+50                android:name="android.support.FILE_PROVIDER_PATHS"
+50-->E:\ShanHuReport\app\src\main\AndroidManifest.xml:27:17-67
+51                android:resource="@xml/wfilepaths" />
+51-->E:\ShanHuReport\app\src\main\AndroidManifest.xml:28:17-51
+52        </provider>
+53
+54        <activity
+54-->[:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:29:9-31:77
+55            android:name="com.pw.view.VideoAdActivity"
+55-->[:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:30:13-55
+56            android:configChanges="keyboardHidden|orientation|screenSize" />
+56-->[:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:31:13-74
+57        <activity
+57-->[:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:32:9-35:52
+58            android:name="com.pw.view.WebActivity"
+58-->[:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:33:13-51
+59            android:configChanges="keyboardHidden|orientation|screenSize"
+59-->[:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:34:13-74
+60            android:screenOrientation="portrait" />
+60-->[:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:35:13-49
+61        <activity
+61-->[:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:36:9-39:64
+62            android:name="com.pw.view.InterstitialActivity"
+62-->[:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:37:13-60
+63            android:configChanges="keyboardHidden|orientation|screenSize"
+63-->[:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:38:13-74
+64            android:theme="@android:style/Theme.Translucent" />
+64-->[:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:39:13-61
+65        <activity
+65-->[:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:40:9-42:77
+66            android:name="com.pw.view.FullInterstitialActivity"
+66-->[:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:41:13-64
+67            android:configChanges="keyboardHidden|orientation|screenSize" />
+67-->[:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:42:13-74
+68
+69        <provider
+69-->[:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:44:9-52:20
+70            android:name="com.pw.inner.base.GDTFileProvider"
+70-->[:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:45:13-61
+71            android:authorities="com.alltheway.forward.fileprovider"
+71-->[:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:46:13-64
+72            android:exported="false"
+72-->[:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:47:13-37
+73            android:grantUriPermissions="true" >
+73-->[:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:48:13-47
+74            <meta-data
+74-->E:\ShanHuReport\app\src\main\AndroidManifest.xml:26:13-28:54
+75                android:name="android.support.FILE_PROVIDER_PATHS"
+75-->E:\ShanHuReport\app\src\main\AndroidManifest.xml:27:17-67
+76                android:resource="@xml/gdt_file_path" />
+76-->E:\ShanHuReport\app\src\main\AndroidManifest.xml:28:17-51
+77        </provider>
+78
+79        <activity
+79-->[:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:54:9-58:62
+80            android:name="com.pw.view.AppWallActivity"
+80-->[:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:55:13-55
+81            android:configChanges="keyboardHidden|orientation|screenSize"
+81-->[:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:56:13-74
+82            android:launchMode="singleTask"
+82-->[:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:57:13-44
+83            android:theme="@style/AppWallTranslucentTheme" />
+83-->[:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:58:13-59
+84        <activity
+84-->[:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:59:9-63:66
+85            android:name="com.pw.view.ReadActivity"
+85-->[:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:60:13-52
+86            android:configChanges="keyboardHidden|orientation|screenSize"
+86-->[:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:61:13-74
+87            android:screenOrientation="portrait"
+87-->[:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:62:13-49
+88            android:theme="@style/Theme.AppCompat.NoActionBar" />
+88-->[:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:63:13-63
+89
+90        <uses-library
+90-->[:kllib-ext-1:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\884e7bf4eec9072d91c81d209e796f27\jetified-kllib-ext-1\AndroidManifest.xml:17:9-19:40
+91            android:name="org.apache.http.legacy"
+91-->[:kllib-ext-1:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\884e7bf4eec9072d91c81d209e796f27\jetified-kllib-ext-1\AndroidManifest.xml:18:13-50
+92            android:required="false" /> <!-- 声明SDK所需要的组件 -->
+92-->[:kllib-ext-1:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\884e7bf4eec9072d91c81d209e796f27\jetified-kllib-ext-1\AndroidManifest.xml:19:13-37
+93        <service
+93-->[:kllib-ext-1:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\884e7bf4eec9072d91c81d209e796f27\jetified-kllib-ext-1\AndroidManifest.xml:20:9-23:43
+94            android:name="com.qq.e.comm.DownloadService"
+94-->[:kllib-ext-1:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\884e7bf4eec9072d91c81d209e796f27\jetified-kllib-ext-1\AndroidManifest.xml:21:13-57
+95            android:exported="false"
+95-->[:kllib-ext-1:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\884e7bf4eec9072d91c81d209e796f27\jetified-kllib-ext-1\AndroidManifest.xml:22:13-37
+96            android:multiprocess="true" /> <!-- 请开发者注意字母的大小写，ADActivity，而不是AdActivity -->
+96-->[:kllib-ext-1:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\884e7bf4eec9072d91c81d209e796f27\jetified-kllib-ext-1\AndroidManifest.xml:23:13-40
+97        <activity
+97-->[:kllib-ext-1:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\884e7bf4eec9072d91c81d209e796f27\jetified-kllib-ext-1\AndroidManifest.xml:24:9-27:43
+98            android:name="com.qq.e.ads.ADActivity"
+98-->[:kllib-ext-1:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\884e7bf4eec9072d91c81d209e796f27\jetified-kllib-ext-1\AndroidManifest.xml:25:13-51
+99            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+99-->[:kllib-ext-1:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\884e7bf4eec9072d91c81d209e796f27\jetified-kllib-ext-1\AndroidManifest.xml:26:13-83
+100            android:multiprocess="true" />
+100-->[:kllib-ext-1:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\884e7bf4eec9072d91c81d209e796f27\jetified-kllib-ext-1\AndroidManifest.xml:27:13-40
+101        <activity
+101-->[:kllib-ext-1:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\884e7bf4eec9072d91c81d209e796f27\jetified-kllib-ext-1\AndroidManifest.xml:28:9-32:52
+102            android:name="com.qq.e.ads.PortraitADActivity"
+102-->[:kllib-ext-1:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\884e7bf4eec9072d91c81d209e796f27\jetified-kllib-ext-1\AndroidManifest.xml:29:13-59
+103            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+103-->[:kllib-ext-1:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\884e7bf4eec9072d91c81d209e796f27\jetified-kllib-ext-1\AndroidManifest.xml:30:13-83
+104            android:multiprocess="true"
+104-->[:kllib-ext-1:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\884e7bf4eec9072d91c81d209e796f27\jetified-kllib-ext-1\AndroidManifest.xml:31:13-40
+105            android:screenOrientation="portrait" />
+105-->[:kllib-ext-1:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\884e7bf4eec9072d91c81d209e796f27\jetified-kllib-ext-1\AndroidManifest.xml:32:13-49
+106        <activity
+106-->[:kllib-ext-1:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\884e7bf4eec9072d91c81d209e796f27\jetified-kllib-ext-1\AndroidManifest.xml:33:9-37:53
+107            android:name="com.qq.e.ads.LandscapeADActivity"
+107-->[:kllib-ext-1:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\884e7bf4eec9072d91c81d209e796f27\jetified-kllib-ext-1\AndroidManifest.xml:34:13-60
+108            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+108-->[:kllib-ext-1:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\884e7bf4eec9072d91c81d209e796f27\jetified-kllib-ext-1\AndroidManifest.xml:35:13-83
+109            android:multiprocess="true"
+109-->[:kllib-ext-1:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\884e7bf4eec9072d91c81d209e796f27\jetified-kllib-ext-1\AndroidManifest.xml:36:13-40
+110            android:screenOrientation="landscape" /> <!-- 用于激励视频可选广告的竖屏透明背景activity -->
+110-->[:kllib-ext-1:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\884e7bf4eec9072d91c81d209e796f27\jetified-kllib-ext-1\AndroidManifest.xml:37:13-50
+111        <activity
+111-->[:kllib-ext-1:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\884e7bf4eec9072d91c81d209e796f27\jetified-kllib-ext-1\AndroidManifest.xml:38:9-42:64
+112            android:name="com.qq.e.ads.RewardvideoPortraitADActivity"
+112-->[:kllib-ext-1:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\884e7bf4eec9072d91c81d209e796f27\jetified-kllib-ext-1\AndroidManifest.xml:39:13-70
+113            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+113-->[:kllib-ext-1:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\884e7bf4eec9072d91c81d209e796f27\jetified-kllib-ext-1\AndroidManifest.xml:40:13-83
+114            android:multiprocess="true"
+114-->[:kllib-ext-1:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\884e7bf4eec9072d91c81d209e796f27\jetified-kllib-ext-1\AndroidManifest.xml:41:13-40
+115            android:theme="@android:style/Theme.Translucent" /> <!-- 用于激励视频可选广告的横屏透明背景activity -->
+115-->[:kllib-ext-1:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\884e7bf4eec9072d91c81d209e796f27\jetified-kllib-ext-1\AndroidManifest.xml:42:13-61
+116        <activity
+116-->[:kllib-ext-1:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\884e7bf4eec9072d91c81d209e796f27\jetified-kllib-ext-1\AndroidManifest.xml:43:9-47:64
+117            android:name="com.qq.e.ads.RewardvideoLandscapeADActivity"
+117-->[:kllib-ext-1:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\884e7bf4eec9072d91c81d209e796f27\jetified-kllib-ext-1\AndroidManifest.xml:44:13-71
+118            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+118-->[:kllib-ext-1:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\884e7bf4eec9072d91c81d209e796f27\jetified-kllib-ext-1\AndroidManifest.xml:45:13-83
+119            android:multiprocess="true"
+119-->[:kllib-ext-1:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\884e7bf4eec9072d91c81d209e796f27\jetified-kllib-ext-1\AndroidManifest.xml:46:13-40
+120            android:theme="@android:style/Theme.Translucent" />
+120-->[:kllib-ext-1:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\884e7bf4eec9072d91c81d209e796f27\jetified-kllib-ext-1\AndroidManifest.xml:47:13-61
+121        <activity
+121-->[:kllib-ext-2:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\377dd13b5af8af8e530bb4eb15532192\jetified-kllib-ext-2\AndroidManifest.xml:16:9-20:20
+122            android:name="com.tencent.ep.shanhuad.adpublic.adbuilder.RewardVedioPage"
+122-->[:kllib-ext-2:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\377dd13b5af8af8e530bb4eb15532192\jetified-kllib-ext-2\AndroidManifest.xml:17:13-86
+123            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+123-->[:kllib-ext-2:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\377dd13b5af8af8e530bb4eb15532192\jetified-kllib-ext-2\AndroidManifest.xml:18:13-83
+124            android:screenOrientation="portrait" >
+124-->[:kllib-ext-2:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\377dd13b5af8af8e530bb4eb15532192\jetified-kllib-ext-2\AndroidManifest.xml:19:13-49
+125        </activity>
+126    </application>
+127
+128</manifest>

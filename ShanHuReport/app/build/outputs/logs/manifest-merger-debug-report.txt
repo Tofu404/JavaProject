@@ -1,0 +1,387 @@
+-- Merging decision tree log ---
+provider#com.pw.us.WdProvider
+INJECTED from E:\ShanHuReport\app\src\main\AndroidManifest.xml:21:9-29:20
+	android:grantUriPermissions
+		ADDED from E:\ShanHuReport\app\src\main\AndroidManifest.xml:25:13-47
+	android:authorities
+		INJECTED from E:\ShanHuReport\app\src\main\AndroidManifest.xml
+		ADDED from E:\ShanHuReport\app\src\main\AndroidManifest.xml:23:13-67
+	android:exported
+		ADDED from E:\ShanHuReport\app\src\main\AndroidManifest.xml:24:13-37
+	android:name
+		ADDED from E:\ShanHuReport\app\src\main\AndroidManifest.xml:22:13-48
+manifest
+ADDED from E:\ShanHuReport\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from E:\ShanHuReport\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from E:\ShanHuReport\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from E:\ShanHuReport\app\src\main\AndroidManifest.xml:2:1-33:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\c2c5fa787d66aaf40578b3071f4d283f\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\28120aa98d624ce8fee0a8087788fd91\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\b05b2a738edf8b82097cbcc8ce0cfd69\jetified-glide-4.11.0\AndroidManifest.xml:2:1-12:12
+MERGED from [com.jakewharton:butterknife:10.2.1] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\e720f450b7070cd6323d8eb78585c088\jetified-butterknife-10.2.1\AndroidManifest.xml:2:1-7:12
+MERGED from [:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:2:1-66:12
+MERGED from [:kllib-ext-1:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\884e7bf4eec9072d91c81d209e796f27\jetified-kllib-ext-1\AndroidManifest.xml:2:1-50:12
+MERGED from [:kllib-ext-2:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\377dd13b5af8af8e530bb4eb15532192\jetified-kllib-ext-2\AndroidManifest.xml:2:1-23:12
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\ce61250d0f7070aaab97d5c03ab2ab2e\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\7c534088c709ef4f962350c99f0510e9\jetified-appcompat-resources-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\385ad0333dd34005ac3b322f68c176b9\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.jakewharton:butterknife-runtime:10.2.1] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\4ad0c7abc8b04f72bc58e74a4d9ce862\jetified-butterknife-runtime-10.2.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\32e32c376d22cae962a95f2aba892822\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\c3d8ec33b66c793058ded980a54c4fd5\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\4d3e32c2f901863288c7ff80fcf0967a\jetified-activity-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\3cf213e33fb5a76421a4e937ff33f07e\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\bde687302d742df89f7d227a2e48b0d9\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\e968a555a0e08b03627a3441cae31e6b\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\03736cf4bc3669a69d502627b70a527e\core-1.1.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\28174e475fcfd6ae966ed5772f6694ac\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\2e09c7ef123dbe20d48a07a2d95cb3bd\jetified-gifdecoder-4.11.0\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\0eaeed0f116c50443b846f22ed279353\exifinterface-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\3c1a5ebf565097fe10667d6b9a2c1703\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\3f5e37635a712470204c0315e55f1003\lifecycle-runtime-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\552d05fff7df0b1caee9db39c74659fe\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\8a52da53b02a83b08615debb9b2e109c\jetified-savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\3e5d045fdd42de39d437ce94a2ff87c7\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\ed8cc0ac00b11c0234ef1e5a578c70c1\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\df4d09f70e3f533a2fede8f96085147c\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\c16c855844b564ee7204d4d6005470fb\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
+INJECTED from E:\ShanHuReport\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from E:\ShanHuReport\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from E:\ShanHuReport\app\src\main\AndroidManifest.xml:2:1-33:12
+	package
+		ADDED from E:\ShanHuReport\app\src\main\AndroidManifest.xml:3:5-36
+		INJECTED from E:\ShanHuReport\app\src\main\AndroidManifest.xml
+		INJECTED from E:\ShanHuReport\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from E:\ShanHuReport\app\src\main\AndroidManifest.xml
+		ADDED from E:\ShanHuReport\app\src\main\AndroidManifest.xml:2:1-33:12
+		INJECTED from E:\ShanHuReport\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from E:\ShanHuReport\app\src\main\AndroidManifest.xml
+		ADDED from E:\ShanHuReport\app\src\main\AndroidManifest.xml:2:1-33:12
+		INJECTED from E:\ShanHuReport\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\ShanHuReport\app\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from E:\ShanHuReport\app\src\main\AndroidManifest.xml:5:5-31:19
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\28120aa98d624ce8fee0a8087788fd91\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\28120aa98d624ce8fee0a8087788fd91\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\b05b2a738edf8b82097cbcc8ce0cfd69\jetified-glide-4.11.0\AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\b05b2a738edf8b82097cbcc8ce0cfd69\jetified-glide-4.11.0\AndroidManifest.xml:10:5-20
+MERGED from [:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:28:5-64:19
+MERGED from [:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:28:5-64:19
+MERGED from [:kllib-ext-1:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\884e7bf4eec9072d91c81d209e796f27\jetified-kllib-ext-1\AndroidManifest.xml:16:5-48:19
+MERGED from [:kllib-ext-1:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\884e7bf4eec9072d91c81d209e796f27\jetified-kllib-ext-1\AndroidManifest.xml:16:5-48:19
+MERGED from [:kllib-ext-2:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\377dd13b5af8af8e530bb4eb15532192\jetified-kllib-ext-2\AndroidManifest.xml:15:5-21:19
+MERGED from [:kllib-ext-2:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\377dd13b5af8af8e530bb4eb15532192\jetified-kllib-ext-2\AndroidManifest.xml:15:5-21:19
+MERGED from [androidx.core:core:1.1.0] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\03736cf4bc3669a69d502627b70a527e\core-1.1.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\03736cf4bc3669a69d502627b70a527e\core-1.1.0\AndroidManifest.xml:24:5-89
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\2e09c7ef123dbe20d48a07a2d95cb3bd\jetified-gifdecoder-4.11.0\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\2e09c7ef123dbe20d48a07a2d95cb3bd\jetified-gifdecoder-4.11.0\AndroidManifest.xml:9:5-20
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\3c1a5ebf565097fe10667d6b9a2c1703\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\3c1a5ebf565097fe10667d6b9a2c1703\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\03736cf4bc3669a69d502627b70a527e\core-1.1.0\AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from E:\ShanHuReport\app\src\main\AndroidManifest.xml:11:9-35
+	android:label
+		ADDED from E:\ShanHuReport\app\src\main\AndroidManifest.xml:9:9-41
+	android:roundIcon
+		ADDED from E:\ShanHuReport\app\src\main\AndroidManifest.xml:10:9-54
+	android:icon
+		ADDED from E:\ShanHuReport\app\src\main\AndroidManifest.xml:8:9-43
+	android:allowBackup
+		ADDED from E:\ShanHuReport\app\src\main\AndroidManifest.xml:7:9-35
+	android:theme
+		ADDED from E:\ShanHuReport\app\src\main\AndroidManifest.xml:12:9-40
+	android:usesCleartextTraffic
+		ADDED from [:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:28:18-53
+	android:name
+		ADDED from E:\ShanHuReport\app\src\main\AndroidManifest.xml:6:9-59
+activity#com.alltheway.forward.MainActivity
+ADDED from E:\ShanHuReport\app\src\main\AndroidManifest.xml:13:9-19:20
+	android:name
+		ADDED from E:\ShanHuReport\app\src\main\AndroidManifest.xml:13:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from E:\ShanHuReport\app\src\main\AndroidManifest.xml:14:13-18:29
+action#android.intent.action.MAIN
+ADDED from E:\ShanHuReport\app\src\main\AndroidManifest.xml:15:17-69
+	android:name
+		ADDED from E:\ShanHuReport\app\src\main\AndroidManifest.xml:15:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\ShanHuReport\app\src\main\AndroidManifest.xml:17:17-77
+	android:name
+		ADDED from E:\ShanHuReport\app\src\main\AndroidManifest.xml:17:27-74
+uses-sdk
+INJECTED from E:\ShanHuReport\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\ShanHuReport\app\src\main\AndroidManifest.xml
+INJECTED from E:\ShanHuReport\app\src\main\AndroidManifest.xml
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\c2c5fa787d66aaf40578b3071f4d283f\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\c2c5fa787d66aaf40578b3071f4d283f\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\28120aa98d624ce8fee0a8087788fd91\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\28120aa98d624ce8fee0a8087788fd91\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\b05b2a738edf8b82097cbcc8ce0cfd69\jetified-glide-4.11.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\b05b2a738edf8b82097cbcc8ce0cfd69\jetified-glide-4.11.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.jakewharton:butterknife:10.2.1] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\e720f450b7070cd6323d8eb78585c088\jetified-butterknife-10.2.1\AndroidManifest.xml:5:5-44
+MERGED from [com.jakewharton:butterknife:10.2.1] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\e720f450b7070cd6323d8eb78585c088\jetified-butterknife-10.2.1\AndroidManifest.xml:5:5-44
+MERGED from [:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:8:5-10:41
+MERGED from [:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:8:5-10:41
+MERGED from [:kllib-ext-1:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\884e7bf4eec9072d91c81d209e796f27\jetified-kllib-ext-1\AndroidManifest.xml:7:5-9:41
+MERGED from [:kllib-ext-1:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\884e7bf4eec9072d91c81d209e796f27\jetified-kllib-ext-1\AndroidManifest.xml:7:5-9:41
+MERGED from [:kllib-ext-2:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\377dd13b5af8af8e530bb4eb15532192\jetified-kllib-ext-2\AndroidManifest.xml:6:5-8:41
+MERGED from [:kllib-ext-2:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\377dd13b5af8af8e530bb4eb15532192\jetified-kllib-ext-2\AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\ce61250d0f7070aaab97d5c03ab2ab2e\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\ce61250d0f7070aaab97d5c03ab2ab2e\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\7c534088c709ef4f962350c99f0510e9\jetified-appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\7c534088c709ef4f962350c99f0510e9\jetified-appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\385ad0333dd34005ac3b322f68c176b9\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\385ad0333dd34005ac3b322f68c176b9\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.jakewharton:butterknife-runtime:10.2.1] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\4ad0c7abc8b04f72bc58e74a4d9ce862\jetified-butterknife-runtime-10.2.1\AndroidManifest.xml:5:5-44
+MERGED from [com.jakewharton:butterknife-runtime:10.2.1] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\4ad0c7abc8b04f72bc58e74a4d9ce862\jetified-butterknife-runtime-10.2.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\32e32c376d22cae962a95f2aba892822\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\32e32c376d22cae962a95f2aba892822\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\c3d8ec33b66c793058ded980a54c4fd5\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\c3d8ec33b66c793058ded980a54c4fd5\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\4d3e32c2f901863288c7ff80fcf0967a\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\4d3e32c2f901863288c7ff80fcf0967a\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\3cf213e33fb5a76421a4e937ff33f07e\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\3cf213e33fb5a76421a4e937ff33f07e\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\bde687302d742df89f7d227a2e48b0d9\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\bde687302d742df89f7d227a2e48b0d9\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\e968a555a0e08b03627a3441cae31e6b\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\e968a555a0e08b03627a3441cae31e6b\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\03736cf4bc3669a69d502627b70a527e\core-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\03736cf4bc3669a69d502627b70a527e\core-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\28174e475fcfd6ae966ed5772f6694ac\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\28174e475fcfd6ae966ed5772f6694ac\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\2e09c7ef123dbe20d48a07a2d95cb3bd\jetified-gifdecoder-4.11.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\2e09c7ef123dbe20d48a07a2d95cb3bd\jetified-gifdecoder-4.11.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\0eaeed0f116c50443b846f22ed279353\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\0eaeed0f116c50443b846f22ed279353\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\3c1a5ebf565097fe10667d6b9a2c1703\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\3c1a5ebf565097fe10667d6b9a2c1703\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\3f5e37635a712470204c0315e55f1003\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\3f5e37635a712470204c0315e55f1003\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\552d05fff7df0b1caee9db39c74659fe\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\552d05fff7df0b1caee9db39c74659fe\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\8a52da53b02a83b08615debb9b2e109c\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\8a52da53b02a83b08615debb9b2e109c\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\3e5d045fdd42de39d437ce94a2ff87c7\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\3e5d045fdd42de39d437ce94a2ff87c7\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\ed8cc0ac00b11c0234ef1e5a578c70c1\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\ed8cc0ac00b11c0234ef1e5a578c70c1\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\df4d09f70e3f533a2fede8f96085147c\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\df4d09f70e3f533a2fede8f96085147c\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\c16c855844b564ee7204d4d6005470fb\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\c16c855844b564ee7204d4d6005470fb\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+INJECTED from E:\ShanHuReport\app\src\main\AndroidManifest.xml
+INJECTED from E:\ShanHuReport\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from E:\ShanHuReport\app\src\main\AndroidManifest.xml
+		ADDED from E:\ShanHuReport\app\src\main\AndroidManifest.xml
+		INJECTED from E:\ShanHuReport\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\ShanHuReport\app\src\main\AndroidManifest.xml
+		ADDED from E:\ShanHuReport\app\src\main\AndroidManifest.xml
+		INJECTED from E:\ShanHuReport\app\src\main\AndroidManifest.xml
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from E:\ShanHuReport\app\src\main\AndroidManifest.xml:26:13-28:54
+	android:resource
+		ADDED from E:\ShanHuReport\app\src\main\AndroidManifest.xml:28:17-51
+	android:name
+		ADDED from E:\ShanHuReport\app\src\main\AndroidManifest.xml:27:17-67
+uses-permission#android.permission.INTERNET
+ADDED from [:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:12:5-67
+MERGED from [:kllib-ext-1:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\884e7bf4eec9072d91c81d209e796f27\jetified-kllib-ext-1\AndroidManifest.xml:12:5-67
+MERGED from [:kllib-ext-1:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\884e7bf4eec9072d91c81d209e796f27\jetified-kllib-ext-1\AndroidManifest.xml:12:5-67
+	android:name
+		ADDED from [:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:12:22-64
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from [:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:13:5-75
+MERGED from [:kllib-ext-2:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\377dd13b5af8af8e530bb4eb15532192\jetified-kllib-ext-2\AndroidManifest.xml:11:5-75
+MERGED from [:kllib-ext-2:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\377dd13b5af8af8e530bb4eb15532192\jetified-kllib-ext-2\AndroidManifest.xml:11:5-75
+	android:name
+		ADDED from [:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:13:22-72
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:14:5-79
+MERGED from [:kllib-ext-1:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\884e7bf4eec9072d91c81d209e796f27\jetified-kllib-ext-1\AndroidManifest.xml:13:5-79
+MERGED from [:kllib-ext-1:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\884e7bf4eec9072d91c81d209e796f27\jetified-kllib-ext-1\AndroidManifest.xml:13:5-79
+MERGED from [:kllib-ext-2:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\377dd13b5af8af8e530bb4eb15532192\jetified-kllib-ext-2\AndroidManifest.xml:10:5-79
+MERGED from [:kllib-ext-2:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\377dd13b5af8af8e530bb4eb15532192\jetified-kllib-ext-2\AndroidManifest.xml:10:5-79
+	android:name
+		ADDED from [:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:14:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:15:5-76
+MERGED from [:kllib-ext-1:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\884e7bf4eec9072d91c81d209e796f27\jetified-kllib-ext-1\AndroidManifest.xml:14:5-76
+MERGED from [:kllib-ext-1:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\884e7bf4eec9072d91c81d209e796f27\jetified-kllib-ext-1\AndroidManifest.xml:14:5-76
+	android:name
+		ADDED from [:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:15:22-73
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from [:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:16:5-80
+	android:name
+		ADDED from [:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:16:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from [:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:17:5-81
+	android:name
+		ADDED from [:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:17:22-78
+uses-permission#android.permission.REQUEST_INSTALL_PACKAGES
+ADDED from [:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:18:5-83
+MERGED from [:kllib-ext-1:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\884e7bf4eec9072d91c81d209e796f27\jetified-kllib-ext-1\AndroidManifest.xml:11:5-83
+MERGED from [:kllib-ext-1:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\884e7bf4eec9072d91c81d209e796f27\jetified-kllib-ext-1\AndroidManifest.xml:11:5-83
+	android:name
+		ADDED from [:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:18:22-80
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from [:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:19:5-77
+	android:name
+		ADDED from [:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:19:22-74
+uses-permission#android.permission.GET_TASKS
+ADDED from [:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:20:5-68
+	android:name
+		ADDED from [:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:20:22-65
+uses-permission#android.permission.PACKAGE_USAGE_STATS
+ADDED from [:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:21:5-24:47
+	xmlns:tools
+		ADDED from [:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:22:9-55
+	tools:ignore
+		ADDED from [:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:23:9-62
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from [:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:25:5-81
+MERGED from [:kllib-ext-2:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\377dd13b5af8af8e530bb4eb15532192\jetified-kllib-ext-2\AndroidManifest.xml:12:5-81
+MERGED from [:kllib-ext-2:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\377dd13b5af8af8e530bb4eb15532192\jetified-kllib-ext-2\AndroidManifest.xml:12:5-81
+	android:name
+		ADDED from [:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:25:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from [:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:26:5-79
+MERGED from [:kllib-ext-2:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\377dd13b5af8af8e530bb4eb15532192\jetified-kllib-ext-2\AndroidManifest.xml:13:5-79
+MERGED from [:kllib-ext-2:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\377dd13b5af8af8e530bb4eb15532192\jetified-kllib-ext-2\AndroidManifest.xml:13:5-79
+	android:name
+		ADDED from [:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:26:22-76
+activity#com.pw.view.VideoAdActivity
+ADDED from [:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:29:9-31:77
+	android:configChanges
+		ADDED from [:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:31:13-74
+	android:name
+		ADDED from [:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:30:13-55
+activity#com.pw.view.WebActivity
+ADDED from [:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:32:9-35:52
+	android:screenOrientation
+		ADDED from [:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:35:13-49
+	android:configChanges
+		ADDED from [:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:34:13-74
+	android:name
+		ADDED from [:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:33:13-51
+activity#com.pw.view.InterstitialActivity
+ADDED from [:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:36:9-39:64
+	android:configChanges
+		ADDED from [:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:38:13-74
+	android:theme
+		ADDED from [:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:39:13-61
+	android:name
+		ADDED from [:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:37:13-60
+activity#com.pw.view.FullInterstitialActivity
+ADDED from [:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:40:9-42:77
+	android:configChanges
+		ADDED from [:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:42:13-74
+	android:name
+		ADDED from [:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:41:13-64
+provider#com.pw.inner.base.GDTFileProvider
+ADDED from [:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:44:9-52:20
+	android:grantUriPermissions
+		ADDED from [:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:48:13-47
+	android:authorities
+		ADDED from [:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:46:13-64
+	android:exported
+		ADDED from [:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:45:13-61
+activity#com.pw.view.AppWallActivity
+ADDED from [:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:54:9-58:62
+	android:launchMode
+		ADDED from [:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:57:13-44
+	android:configChanges
+		ADDED from [:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:56:13-74
+	android:theme
+		ADDED from [:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:58:13-59
+	android:name
+		ADDED from [:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:55:13-55
+activity#com.pw.view.ReadActivity
+ADDED from [:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:59:9-63:66
+	android:screenOrientation
+		ADDED from [:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:62:13-49
+	android:configChanges
+		ADDED from [:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:61:13-74
+	android:theme
+		ADDED from [:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:63:13-63
+	android:name
+		ADDED from [:kllib:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\31c64b3cfd5ca7c7bb26cce092d2f420\jetified-kllib\AndroidManifest.xml:60:13-52
+uses-library#org.apache.http.legacy
+ADDED from [:kllib-ext-1:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\884e7bf4eec9072d91c81d209e796f27\jetified-kllib-ext-1\AndroidManifest.xml:17:9-19:40
+	android:required
+		ADDED from [:kllib-ext-1:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\884e7bf4eec9072d91c81d209e796f27\jetified-kllib-ext-1\AndroidManifest.xml:19:13-37
+	android:name
+		ADDED from [:kllib-ext-1:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\884e7bf4eec9072d91c81d209e796f27\jetified-kllib-ext-1\AndroidManifest.xml:18:13-50
+service#com.qq.e.comm.DownloadService
+ADDED from [:kllib-ext-1:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\884e7bf4eec9072d91c81d209e796f27\jetified-kllib-ext-1\AndroidManifest.xml:20:9-23:43
+	android:multiprocess
+		ADDED from [:kllib-ext-1:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\884e7bf4eec9072d91c81d209e796f27\jetified-kllib-ext-1\AndroidManifest.xml:23:13-40
+	android:exported
+		ADDED from [:kllib-ext-1:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\884e7bf4eec9072d91c81d209e796f27\jetified-kllib-ext-1\AndroidManifest.xml:22:13-37
+	android:name
+		ADDED from [:kllib-ext-1:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\884e7bf4eec9072d91c81d209e796f27\jetified-kllib-ext-1\AndroidManifest.xml:21:13-57
+activity#com.qq.e.ads.ADActivity
+ADDED from [:kllib-ext-1:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\884e7bf4eec9072d91c81d209e796f27\jetified-kllib-ext-1\AndroidManifest.xml:24:9-27:43
+	android:multiprocess
+		ADDED from [:kllib-ext-1:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\884e7bf4eec9072d91c81d209e796f27\jetified-kllib-ext-1\AndroidManifest.xml:27:13-40
+	android:configChanges
+		ADDED from [:kllib-ext-1:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\884e7bf4eec9072d91c81d209e796f27\jetified-kllib-ext-1\AndroidManifest.xml:26:13-83
+	android:name
+		ADDED from [:kllib-ext-1:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\884e7bf4eec9072d91c81d209e796f27\jetified-kllib-ext-1\AndroidManifest.xml:25:13-51
+activity#com.qq.e.ads.PortraitADActivity
+ADDED from [:kllib-ext-1:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\884e7bf4eec9072d91c81d209e796f27\jetified-kllib-ext-1\AndroidManifest.xml:28:9-32:52
+	android:screenOrientation
+		ADDED from [:kllib-ext-1:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\884e7bf4eec9072d91c81d209e796f27\jetified-kllib-ext-1\AndroidManifest.xml:32:13-49
+	android:multiprocess
+		ADDED from [:kllib-ext-1:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\884e7bf4eec9072d91c81d209e796f27\jetified-kllib-ext-1\AndroidManifest.xml:31:13-40
+	android:configChanges
+		ADDED from [:kllib-ext-1:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\884e7bf4eec9072d91c81d209e796f27\jetified-kllib-ext-1\AndroidManifest.xml:30:13-83
+	android:name
+		ADDED from [:kllib-ext-1:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\884e7bf4eec9072d91c81d209e796f27\jetified-kllib-ext-1\AndroidManifest.xml:29:13-59
+activity#com.qq.e.ads.LandscapeADActivity
+ADDED from [:kllib-ext-1:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\884e7bf4eec9072d91c81d209e796f27\jetified-kllib-ext-1\AndroidManifest.xml:33:9-37:53
+	android:screenOrientation
+		ADDED from [:kllib-ext-1:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\884e7bf4eec9072d91c81d209e796f27\jetified-kllib-ext-1\AndroidManifest.xml:37:13-50
+	android:multiprocess
+		ADDED from [:kllib-ext-1:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\884e7bf4eec9072d91c81d209e796f27\jetified-kllib-ext-1\AndroidManifest.xml:36:13-40
+	android:configChanges
+		ADDED from [:kllib-ext-1:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\884e7bf4eec9072d91c81d209e796f27\jetified-kllib-ext-1\AndroidManifest.xml:35:13-83
+	android:name
+		ADDED from [:kllib-ext-1:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\884e7bf4eec9072d91c81d209e796f27\jetified-kllib-ext-1\AndroidManifest.xml:34:13-60
+activity#com.qq.e.ads.RewardvideoPortraitADActivity
+ADDED from [:kllib-ext-1:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\884e7bf4eec9072d91c81d209e796f27\jetified-kllib-ext-1\AndroidManifest.xml:38:9-42:64
+	android:multiprocess
+		ADDED from [:kllib-ext-1:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\884e7bf4eec9072d91c81d209e796f27\jetified-kllib-ext-1\AndroidManifest.xml:41:13-40
+	android:configChanges
+		ADDED from [:kllib-ext-1:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\884e7bf4eec9072d91c81d209e796f27\jetified-kllib-ext-1\AndroidManifest.xml:40:13-83
+	android:theme
+		ADDED from [:kllib-ext-1:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\884e7bf4eec9072d91c81d209e796f27\jetified-kllib-ext-1\AndroidManifest.xml:42:13-61
+	android:name
+		ADDED from [:kllib-ext-1:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\884e7bf4eec9072d91c81d209e796f27\jetified-kllib-ext-1\AndroidManifest.xml:39:13-70
+activity#com.qq.e.ads.RewardvideoLandscapeADActivity
+ADDED from [:kllib-ext-1:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\884e7bf4eec9072d91c81d209e796f27\jetified-kllib-ext-1\AndroidManifest.xml:43:9-47:64
+	android:multiprocess
+		ADDED from [:kllib-ext-1:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\884e7bf4eec9072d91c81d209e796f27\jetified-kllib-ext-1\AndroidManifest.xml:46:13-40
+	android:configChanges
+		ADDED from [:kllib-ext-1:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\884e7bf4eec9072d91c81d209e796f27\jetified-kllib-ext-1\AndroidManifest.xml:45:13-83
+	android:theme
+		ADDED from [:kllib-ext-1:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\884e7bf4eec9072d91c81d209e796f27\jetified-kllib-ext-1\AndroidManifest.xml:47:13-61
+	android:name
+		ADDED from [:kllib-ext-1:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\884e7bf4eec9072d91c81d209e796f27\jetified-kllib-ext-1\AndroidManifest.xml:44:13-71
+activity#com.tencent.ep.shanhuad.adpublic.adbuilder.RewardVedioPage
+ADDED from [:kllib-ext-2:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\377dd13b5af8af8e530bb4eb15532192\jetified-kllib-ext-2\AndroidManifest.xml:16:9-20:20
+	android:screenOrientation
+		ADDED from [:kllib-ext-2:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\377dd13b5af8af8e530bb4eb15532192\jetified-kllib-ext-2\AndroidManifest.xml:19:13-49
+	android:configChanges
+		ADDED from [:kllib-ext-2:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\377dd13b5af8af8e530bb4eb15532192\jetified-kllib-ext-2\AndroidManifest.xml:18:13-83
+	android:name
+		ADDED from [:kllib-ext-2:] C:\Users\kongtianze\.gradle\caches\transforms-2\files-2.1\377dd13b5af8af8e530bb4eb15532192\jetified-kllib-ext-2\AndroidManifest.xml:17:13-86
