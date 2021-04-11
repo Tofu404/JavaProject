@@ -1,6 +1,5 @@
 package com;
 
-import javax.swing.filechooser.FileSystemView;
 import java.io.*;
 import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
@@ -20,7 +19,7 @@ public class Main {
      * 第一个路径是读取配置文件的路径（40805.dat）
      * 第二个路径是sdk项目的位置
      */
-    private static List<String> configList = new ArrayList<>();
+    private static final List<String> configList = new ArrayList<>();
 
     //路径配置
     private static final String configFileName = "configFile.txt";
@@ -29,10 +28,10 @@ public class Main {
     private static final String packNamesFileName = "packNameFile.txt";
 
     //包名list
-    private static List<String> packNameList = new ArrayList<>();
+    private static final List<String> packNameList = new ArrayList<>();
 
     //gradle文件名称
-    private static String gradleFileName = "build.gradle";
+    private static final String gradleFileName = "build.gradle";
 
     //测试打包脚本文件名称
     private static final String testShellFileName = "testPackingShell.bat";
@@ -41,9 +40,8 @@ public class Main {
     private static final String releaseShellFileName = "releasePackingShell.bat";
 
     private static File configFlie;
-    private static File packNames;
     private static boolean isTestMode;
-    private static String appkey;
+    private static String appKey;
     private static String nativeAdId;
     private static String rewardAdId;
 
@@ -56,7 +54,7 @@ public class Main {
         }
 
         //创建文件
-        packNames = new File(configAndShellFilePath + packNamesFileName);
+        File packNames = new File(configAndShellFilePath + packNamesFileName);
         configFlie = new File(configAndShellFilePath + configFileName);
 
         if (!configFlie.exists()) {
@@ -83,7 +81,7 @@ public class Main {
 
         BuildShell buildShell = new BuildShell(packNameList, sdkPath, configAndShellFilePath);
         buildShell.isTestMode = isTestMode;
-        buildShell.appkey = appkey;
+        buildShell.appkey = appKey;
         buildShell.nativeAdId = nativeAdId;
         buildShell.rewardAdId = rewardAdId;
 
@@ -209,9 +207,9 @@ public class Main {
                 if (s.contains("app key（默认值：0QY40DHLM2J08XXCDDS63A34）：")) {
                     substring = s.replace("app key（默认值：0QY40DHLM2J08XXCDDS63A34）：","");
                     if (substring.length() == 0) {
-                        appkey = "0QY40DHLM2J08XXCDDS63A34";
+                        appKey = "0QY40DHLM2J08XXCDDS63A34";
                     } else {
-                        appkey = substring;
+                        appKey = substring;
                     }
                 }
                 if (s.contains("原生广告id（默认值：17916_65526）：")) {
